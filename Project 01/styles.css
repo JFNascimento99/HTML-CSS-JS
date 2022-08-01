@@ -1,0 +1,37 @@
+/*Styles das Tags*/
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+    margin: 0%;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+
+/*Styles das Classes*/
+.hero{
+    background-image: url(../assets/Backgounds/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+}
+
+.hero-content{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 150px;
+}
+.hero-content h1{
+    /*Formata apenas os H1 que possuem a classe hero-content*/
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 5px #333;
+}
+
+.content-section{
+    background-color: whitesmoke;
+    padding: 15px;
+    margin-top: 15px;
+}
