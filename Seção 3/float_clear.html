@@ -5,8 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #container{
+            width: 80%;
+            padding: 15px;
+            background-color: #ccc;
+            overflow: auto;
+        }
+        
+        #container div{
+            width: 150px;
+            height: 50px;
+            margin: 5px;
+            border: 2px solid red;
+        }
+
+        #div1{
+            float: left;
+        }
+
+        #div2{
+            float: left;
+        }
+
+        #div3{
+            float: left;
+        }
+
+        header{
+            background-color: #ccc;
+            height: 150px;
+        }
+
+        nav{
+            width: 25%;
+            height: 50px;
+            background-color: orange;
+            float: left;
+        }
+
+        main{
+            width: 70%;
+            height: 100px;
+            background-color: yellow;
+            float: left;
+        }
+
+        footer{
+            height: 50px;
+            background-color: blue;
+            clear: both;
+        }
+
+    </style>
 </head>
 <body>
+
+    <h1>float</h1>
+    <div id="container">
+        <div id="div1">div1</div>
+        <div id="div2">div2</div>
+        <div id="div3">div3</div>
+    </div>
+
+    <hr>
     
+    <header>header</header>
+    <nav>nav</nav>
+    <main>main</main>
+    <footer>footer</footer>
+
 </body>
 </html>
