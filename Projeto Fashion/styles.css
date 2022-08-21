@@ -65,5 +65,11 @@ main {
 .showcase{
     padding: 15px;
     margin-top: 15px;
-    overflow: auto;
+    overflow: hidden;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
 }
